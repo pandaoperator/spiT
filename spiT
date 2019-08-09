@@ -1,6 +1,6 @@
 x = [qrfqfqrdisfha, spaidhfpsIEHFPiwfe, parihgaprwihg, aspidhgaprghsg, paifhpawiehgpiawe,wegwrgwegfwegwrgqatbhaetb]
 y = []
-a ""
+a = ""
 for i in range(0, len(x)-1):
 	if (len([i]) > len(x[i + 1])):
 		a = x[i + 1]
