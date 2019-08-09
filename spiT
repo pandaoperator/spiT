@@ -1,7 +1,7 @@
 #Code complete
 #Organizes list of dna sequences by length of sequence and then by alphabetical order when sequence length is the same
 x = ["atcg","ag","at","aa","atatattatcg","atcgat"]
-for n in range (0,(len(x)+1):
+for n in range(0,len(x)):
 	for i in range (0,(len(x)-1)):
 		a = len(x[i])
 		b = len(x[i+1])
