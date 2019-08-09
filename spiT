@@ -1,15 +1,10 @@
 x = ["tagaa", "atcgatcg", "atatatattatatattatcgcgcgtatcg", "agt", "at"]
-y = []
-a = ""
-for i in range(0, len(x)-1):
-	if (len(x[i]) > len(x[i + 1])):
-		a = x[i + 1]
-	elif (len(x[i]) < len(x[i + 1])):
-		a = x[i]
-	else:   
-		pass
-	y.append(a)
-	
-print(a)
-
-
+for n in range (30):
+	for i in range(0, len(x)-1):
+		if ((len(x[i])>len(x[(i+1)]) is True):		
+			z =x[(i+1)]
+			x[(i+1)]=x[i]
+			x[i]=z
+		else:
+			pass
+print(x)
