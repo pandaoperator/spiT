@@ -27,3 +27,10 @@ for i in range(0, len(x)-1):
 
 print(a)
 
+#here's the syntax error it's giving me
+#  File "spiT", line 7
+#    if ((len(x[i])>len(x[(i+1)]) is True):
+                                         ^
+#SyntaxError: invalid syntax
+
+
