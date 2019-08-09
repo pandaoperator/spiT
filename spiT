@@ -1,36 +1,10 @@
-#What I'm trying to do is move the shorter string forward in the list, and then keep doing it until the DNA sequences are in order
-# but there's some syntax error
- 
-x = ["tagaa", "atcgatcg", "atatatattatatattatcgcgcgtatcg", "agt", "at"]
-for n in range (30):
-	for i in range(0, len(x)-1):
-		if ((len(x[i])>len(x[(i+1)]) is True):		
-			z =x[(i+1)]
-			x[(i+1)]=x[i]
-			x[i]=z
-		else:
-			pass
+x = ["atcg","ag", "a", "atatattatcg", "atcgat"]
+for n in range (0,100):
+	for i in range (0,(len(x)-1)):
+		a = len(x[i])
+		b = len(x[i+1])
+		if (a>b) is True:
+			z = x[i]
+			x[i] = x[i+1]
+			x[i+1]=z
 print(x)
-
-#here's the code from before, feel free to delete mine
-x = [qrfqfqrdisfha, spaidhfpsIEHFPiwfe, parihgaprwihg, aspidhgaprghsg, paifhpawiehgpiawe,wegwrgwegfwegwrgqatbhaetb]
-y = []
-a ""
-for i in range(0, len(x)-1):
-        if (len([i]) > len(x[i + 1])):
-                a = x[i + 1]
-        elif (len(x[i]) < len(x[i + 1])):
-                a = x[i]
-        else:
-
-        y.append(a)
-
-print(a)
-
-#here's the syntax error it's giving me
-#  File "spiT", line 7
-#    if ((len(x[i])>len(x[(i+1)]) is True):
-                                         ^
-#SyntaxError: invalid syntax
-
-
