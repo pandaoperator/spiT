@@ -1,3 +1,5 @@
+#Code complete
+#Organizes list of dna sequences by length of sequence
 x = ["atcg","ag", "a", "atatattatcg", "atcgat"]
 for n in range (0,100):
 	for i in range (0,(len(x)-1)):
