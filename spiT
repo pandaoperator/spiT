@@ -1,6 +1,6 @@
 #Code complete
 #Organizes list of dna sequences by length of sequence
-x = ["atcg","ag", "a", "atatattatcg", "atcgat"]
+x = ["atcg","ag", "at", "atatattatcg", "atcgat"]
 for n in range (0,100):
 	for i in range (0,(len(x)-1)):
 		a = len(x[i])
@@ -9,4 +9,7 @@ for n in range (0,100):
 			z = x[i]
 			x[i] = x[i+1]
 			x[i+1]=z
+		elif a==b:
+			
+
 print(x)
