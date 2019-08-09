@@ -10,6 +10,9 @@ for n in range (0,100):
 			x[i] = x[i+1]
 			x[i+1]=z
 		elif a==b:
-			
-
+			if ((x[i])>(x[i+1])):
+				z = x[i]
+				x[i] = x[i+1]
+				x[i+1]=z
 print(x)
+
