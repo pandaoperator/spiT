@@ -1,5 +1,1 @@
-public static void main(String [] args) {
-for(int i = 0; i < 42; i++) {
-System.out.println("hello world number" + i + 1 );
-}
-}
+print("hi")
